@@ -1,0 +1,33 @@
+# git init en la carpeta local ----> inicializa un repo local nuevo
+# git config --global init.defaultBranch main ---> para hacer una rama x a main
+# git status ----> para ver que arcivo se agrego o saco/
+# git add ---> o git add . para agregar archivos por separado o todos/
+git commit -m "name"---> para subir los cambios al repo local.
+git pull ---> para descargar a mi pc la data del repo.
+git log ---> para ver los commit hechos.
+git push ---> para pushear a la nube
+##----------##
+Ramas
+# git branch --->   para consultar las ramas existentes.
+# git checkout name branch ---> para cambiar de rama y dejarla elegida.
+# git checkout  -b nombre de la rama ----> crea una rama y de uina vez la elige para operar.
+# git branch -m nuevo nombre ---> para cambiar nombre de la rama, posicionado en la rama.
+# git branch -d nombre de la rama a borrar----> elimina ramas locales.
+
+#git log --oneline ----> para ver ramas comiteadas.
+ =============================
+# Clonamos el repositorio de github ----> git clone <url>
+#Agregar repositorio remoto ---> git remote add origin <url>
+# Comando -d elimina el branch y lo une al master ---> git branch -d <nameBranch>
+#Elimina sin preguntar--->git branch -D <nameBranch>
+# Verifica cambios en el repositorio online con el local ---> git fetch
+# 
+
+	
+	
+
+
+	
+
+	
+	
